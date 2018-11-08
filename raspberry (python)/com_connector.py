@@ -1,5 +1,7 @@
 import serial
 import subprocess
+import os
+import signal
 
 def main():
     if (input("Do you kwon the serial port ? (Y/n)") == "n"):
